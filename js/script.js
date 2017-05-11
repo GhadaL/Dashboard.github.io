@@ -19,7 +19,7 @@ $(document).ready(function() {
   $("#timeHere").html(time);
   $("#dateHere").html(date);
 
-      if(value == 2){
+      if(value > 2){
     $(".audioDemo").trigger('play');
     }
 }
